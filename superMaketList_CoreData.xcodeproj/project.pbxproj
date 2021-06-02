@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		91E6B1BF266718F300504FD9 /* superMaketList_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91E6B1BD266718F300504FD9 /* superMaketList_CoreData.xcdatamodeld */; };
 		91E6B1C1266718F700504FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E6B1C0266718F700504FD9 /* Assets.xcassets */; };
 		91E6B1C4266718F700504FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E6B1C2266718F700504FD9 /* LaunchScreen.storyboard */; };
+		91E6B1D226671CE700504FD9 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6B1D026671CE700504FD9 /* Product+CoreDataClass.swift */; };
+		91E6B1D326671CE700504FD9 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6B1D126671CE700504FD9 /* Product+CoreDataProperties.swift */; };
+		91E6B1D626672F2600504FD9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6B1D526672F2600504FD9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		91E6B1C0266718F700504FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E6B1C3266718F700504FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E6B1C5266718F700504FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E6B1D026671CE700504FD9 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		91E6B1D126671CE700504FD9 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		91E6B1D526672F2600504FD9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		91E6B1B3266718F300504FD9 /* superMaketList_CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				91E6B1D426672EFC00504FD9 /* Resources */,
+				91E6B1CF26671A1200504FD9 /* Model */,
 				91E6B1B4266718F300504FD9 /* AppDelegate.swift */,
 				91E6B1B6266718F300504FD9 /* SceneDelegate.swift */,
 				91E6B1B8266718F300504FD9 /* ViewController.swift */,
@@ -68,6 +76,23 @@
 				91E6B1BD266718F300504FD9 /* superMaketList_CoreData.xcdatamodeld */,
 			);
 			path = superMaketList_CoreData;
+			sourceTree = "<group>";
+		};
+		91E6B1CF26671A1200504FD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91E6B1D026671CE700504FD9 /* Product+CoreDataClass.swift */,
+				91E6B1D126671CE700504FD9 /* Product+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91E6B1D426672EFC00504FD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91E6B1D526672F2600504FD9 /* Extensions.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = 91E6B1AC266718F300504FD9 /* Build configuration list for PBXProject "superMaketList_CoreData" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -142,8 +167,11 @@
 			files = (
 				91E6B1B9266718F300504FD9 /* ViewController.swift in Sources */,
 				91E6B1B5266718F300504FD9 /* AppDelegate.swift in Sources */,
+				91E6B1D326671CE700504FD9 /* Product+CoreDataProperties.swift in Sources */,
 				91E6B1B7266718F300504FD9 /* SceneDelegate.swift in Sources */,
+				91E6B1D226671CE700504FD9 /* Product+CoreDataClass.swift in Sources */,
 				91E6B1BF266718F300504FD9 /* superMaketList_CoreData.xcdatamodeld in Sources */,
+				91E6B1D626672F2600504FD9 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
